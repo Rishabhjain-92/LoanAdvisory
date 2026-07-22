@@ -20,7 +20,7 @@ def ask_question(question):
 
     embeddings = GoogleGenerativeAIEmbeddings(
         model="models/gemini-embedding-001",
-        google_api_key=os.getenv("GOOGLE_API_KEY")
+        google_api_key=os.getenv("AQ.Ab8RN6KtFA4H_4VP6Zw18i1yXdo-Yk4psb3Bqw7jqp8HBfptrA")
     )
 
 
